@@ -7,8 +7,7 @@
     <title>🔮 Guess-o-tron</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
@@ -36,8 +35,8 @@
         <main class="game--core">
             <div class="num--atual"> </div>
             <section class="container--guess">
-                <button id="btn--alto" onclick="verificarAcerto('alto')">Mais alto</button>
-                <button id="btn--baixo" onclick="verificarAcerto('baixo')">Mais baixo</button>
+                <button id="btn--alto" onclick="verificarResposta('alto')">Mais alto</button>
+                <button id="btn--baixo" onclick="verificarResposta('baixo')">Mais baixo</button>
             </section>
             <section class="game--control">
                 <button id="btn--start">Começar!</button>
@@ -48,6 +47,8 @@
             </section>
         </main>
     </div>
+
+    <script src="game.js"></script>
 </body>
 
 </html>
